@@ -37,6 +37,11 @@ document.write("</div>");
 //first subtotal
 var subTotal = numDogs*3.75 + numFries*3 + numSodas*2.50;
 
+document.write("<div class = 'endline'>");
+document.write("<div class='endlabel'>Subtotal: </div>");
+document.write("<div class='endprice'>" + printPrice(subTotal) + "</div>");
+document.write("</div>");
+
 
 /*take in float, convert to string and add decimals if needed; return a string*/
 function printPrice(price) {
