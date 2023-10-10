@@ -1,3 +1,12 @@
+/*
+Youngseo Yi
+10/10/23
+CS20-Web Programming
+HW4: Joe's Hot Dogs
+Content: external style sheet for the website
+*/
+
+/*General formatting for whole page*/
 body {
     margin: 0;
     font-family: Tahoma, "Trebuchet MS", sans-serif;
@@ -7,6 +16,7 @@ body {
     background-color: #297373;
 }
 
+/*Each item in the order*/
 .item {
     display: block;
     width: 100%;
@@ -24,6 +34,7 @@ body {
     margin-right: 30px;
 }
 
+/*Discounts, Tax, and Total*/
 .endline {
     display: block;
     margin-left: 20px;
@@ -40,12 +51,13 @@ body {
     margin-right: 10px;
 }
 
+/*Logo*/
 img {
     margin: 20px;
     width: 100px;
 }
 
-
+/*Box containing all the order info*/
 .receipt {
     display: block;
     margin: auto;
@@ -55,6 +67,7 @@ img {
     background-color: white;
 }
 
+/*Label for the receipt*/
 p {
     display: block;
     font-size: 50px;
