@@ -7,7 +7,7 @@ Content: Javascript file for Joe's Hot Dogs; interactive prompts
 */
 
 //Hot Dogs
-var numDogs = prompt("How many hotdogs do you want?");
+var numDogs = prompt("How many hot dogs do you want?");
 
 document.write("<div class = 'item'>");
 document.write("<div class='name'>Hot dogs ordered: </div>");
