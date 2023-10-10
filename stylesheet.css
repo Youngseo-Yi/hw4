@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    box-sizing: border-box;
+    font-size: calc(15px + 0.390625px);
+    color: black;
+    background-color: #297373;
+}
+
+.item {
+    display: block;
+    width: 100%;
+    margin: 20px;
+}
+
+.name, .quantity {
+    display: inline-block;
+    text-align: left;
+}
+
+.price {
+    display: block;
+    float: right;
+    margin-right: 30px;
+}
+
+.endline {
+    display: block;
+    margin-left: 20px;
+}
+
+.endlabel {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.endprice {
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+
+img {
+    margin: 20px;
+    width: 100px;
+}
+
+
+.receipt {
+    display: block;
+    margin: auto;
+    border: 3px solid #1f1300;
+    max-width: 300px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+p {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    border: 3px solid #1f1300;
+    max-width: 300px;
+    background-color: #f79975;
+    color: black;
+}
